@@ -1,0 +1,101 @@
+<html lang="pt-br"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="redação.css">
+  <style>
+    #text-to-copy {
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 10px 15px;
+      background-color: #3d91e0;
+      color: rgb(0, 0, 0);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3988dd;
+    }
+  </style>
+</head>
+<body>
+  <h1>
+    <p>
+     codigo para copiar        
+    </p>
+
+
+  </h1>
+<div> <pre> 
+  class="texto-green">
+  console.log(`
+  %c
+  █▀▀▄ ░▀░ █░█ ░▀░ ▀▀█▀▀ █▀▀█
+  █░░█ ▀█▀ █▀▄ ▀█▀ ░░█░░ █░░█
+  ▀░░▀ ▀▀▀ ▀░▀ ▀▀▀ ░░▀░░ ▀▀▀▀
+  %c
+  `,"color: gren;","color: black;"),console.log(`
+  
+  `),console.log("%c----------------------------------------%c","color: blue;","color: black;"),console.log("","color: blue;","color: black;","color: green;","color: black;"),console.log("%cLink pro script e como usar:%c %c isjohn.site/redacaoscript%c","color: blue;","color: black;","color: green;","color: black;"),console.log("%c----------------------------------------%c","color: blue;","color: black;"),console.log(`
+   console.log("eu sou literalmente muito foda")
+  `),console.log("%cSite pra pegar redação fácil:%c","color: cyan;","color: black;"),console.log("%chttps://www.editpad.org/tool/br/gerador-de-redacao%c","color: cyan;","color: black;"),console.log(`
+  
+  `);const o=prompt("Digite o texto que você deseja inserir:"),c=5;function l(o){let c=0;const l=``+o,e=setInterval(()=>{document.execCommand("insertText",!1,l[c]),++c>=l.length&&clearInterval(e)&&console.log("")},1)}console.log(`.`),setTimeout(()=>l(o),5e3);
+  
+  
+  setTimeout(() => {
+      alert('by nikito ');
+      window.open("https://www.instagram.com/kauacr__/");
+    }, 5000);
+  </pre>
+
+</div> 
+<button onclick="copyText()">Copiar Texto</button>
+<script>
+  function copyText() {
+    // Seleciona o texto do bloco
+    const textElement = document.getElementById('text-to-copy');
+    const range = document.createRange();
+    range.selectNode(textElement);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    
+    // Copia o texto selecionado
+    try {
+      document.execCommand('copy');
+      alert('Texto copiado para a área de transferência!');
+    } catch (err) {
+      console.error('Erro ao copiar o texto: ', err);
+    }
+    
+    // Limpa a seleção
+    window.getSelection().removeAllRanges();
+  }
+</script>
+
+<style>
+  .texto-2 {
+    display: block; /* Faz com que o link se comporte como um bloco e tenha margem */
+    margin-top: 50px; /* Espaçamento superior */
+    color: #007bff;
+    text-decoration: none;
+  }
+  .texto-2:hover {
+    text-decoration: underline;
+  }
+</style>
+
+
+<a class="texto-2" href="https://www.instagram.com/kauacr__/"target="_blank">
+      <img src="C:\Users\ramos\testes\redção\img\Instagram_icon.png"  style="width: 40px; height: 40px;">
+      
+      
+    </a>
+  </prev>
+   </h2> 
+</body>
+</html>
